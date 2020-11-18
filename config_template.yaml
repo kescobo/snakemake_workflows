@@ -12,6 +12,8 @@ reads: paired # change to "single" if appropriate
 run: all # or: "kneaddata" "metaphlan" "humann"
 samples: setup/echo_samples.snakefile
 
+skipknead: False
+
 #----------------------
 # Environment variables
 #----------------------

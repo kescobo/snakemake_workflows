@@ -1,4 +1,8 @@
-include: "workflows/kneaddata.snakefile"
+if not config["skipknead"]:
+    include: "workflows/kneaddata.snakefile"
+else:
+    kneadfolder = os.path.join(output_folder, "kneaddata")
+
 include: "workflows/metaphlan.snakefile"
 include: "workflows/humann.snakefile"
 
