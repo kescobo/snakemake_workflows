@@ -18,11 +18,11 @@ samples: setup/echo_samples.snakefile
 
 # # by default, assume these are in $PATH
 # # These are not yet used
-# executables:
-#     kneaddata: kneaddata
-#     metaphlan: metaphlan
-#     humann: humann
-#     diamond: diamond
+executables:
+    kneaddata: kneaddata
+    metaphlan: metaphlan
+    humann: humann
+    diamond: diamond
 
 # these are the paths on your cluster
 databases:
